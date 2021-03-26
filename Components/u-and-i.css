@@ -1,0 +1,48 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css";
+@import "https://fonts.gstatic.com";
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap";
+
+
+@import "./typography.css";
+@import "./lists.css";
+@import "./button.css";
+@import "./badge.css";
+@import "./avatar.css";
+@import "./alerts.css";
+@import "./image.css";
+@import "./forms.css";
+@import "./modal.css";
+@import "./cards.css";
+@import "./navigation.css";
+@import "./rating.css";
+@import "./grid.css";
+@import "./toast.css";
+@import "./slider.css";
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    color: #3e4152;
+}
+
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --primary-color: #ff3f6c;
+    --light-primary-color: #FF6589;
+    --dark-primary-color: #e63961;
+
+    --complimentary-text-color: white;
+
+    --secondary-text-color:#696b79;
+    --dark-secondary-text-color:#3f4049;
+    --secondary-color: #eaeaec;
+    --dark-secondary-color:#d8d8da;
+    
+    --inactive-color:rgb(191, 192, 198);
+}
+

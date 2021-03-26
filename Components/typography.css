@@ -1,0 +1,92 @@
+h1,h2,h3,h4,h5,h6, .h1, .h2, .h3, .h4, .h5, .h6{
+    margin: 0.625rem 0;
+    line-height: 1.2;
+    font-weight: 500;
+}
+.h1, h1{
+    font-size: 3rem;
+}
+.h2, h2{
+    font-size: 2.5rem;
+}
+.h3, h3{
+    font-size: 2rem;
+}
+.h4, h4{
+    font-size: 1.75rem;
+}
+.h5, h5{
+    font-size: 1.5rem;
+}
+.h6, h6{
+    font-size: 1.25rem;
+}
+p, .p{
+    font-size: 1rem;
+    margin: 0.625rem 0;
+    line-height: 1.5;
+}
+.body-cp-lg{
+    font-size: 1.5rem;
+}
+.body-cp-rg{
+    font-size: 1rem;
+}
+.body-cp-md{
+    font-size: 0.875rem;
+}
+.body-cp-sm{
+    font-size: 0.75rem;
+}
+
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.vertical-middle{
+    justify-content: center;
+    align-items: center;
+}
+.vertical-middle-self{
+    align-self: center;
+    justify-self: center;
+}
+.text-strike-through{
+    text-decoration: line-through;
+}
+.text-underline{
+    text-decoration: underline;
+}
+.text-bold-weight{
+    font-weight: 700;
+}
+.text-light-weight{
+    font-weight: 300;
+}
+.text-regular-weight{
+    font-weight: 500;
+}
+.text-small-size{
+    font-size: 0.875rem;
+}
+.text-mark{
+    background-color: var(--dark-secondary-color);
+}
+.primary-text-color{
+    color: var(--primary-color);
+}
+.secondary-text-color{
+    color: var(--secondary-text-color);
+}
+.tertiary-text-color{
+    color:#282c3f;
+}
+.padding-around-span{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}

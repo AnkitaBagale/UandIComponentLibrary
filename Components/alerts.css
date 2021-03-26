@@ -1,0 +1,60 @@
+
+.alert-box{
+    border-radius: 0.3rem;
+    padding: 1rem 3rem 1rem 1rem;
+    font-size: 1rem;
+    margin: 1rem 0;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+.alert-icon{
+    margin-right: 0.625rem;
+    width: 1em;
+    height: 1em;
+}
+
+.alert-primary{
+    background-color: #7FD2E6;
+    color: #29438b;
+}
+.alert-box .link-text, .alert-box .btn{
+    font-weight: 500;
+}
+.alert-secondary{
+    background-color: #eaeaec;
+    color: #696b79;
+}
+.alert-success{
+    background-color: #84f1c9;
+    color: #1b7052;
+}
+.alert-danger{
+    color: #dc3545;
+    background-color: #fcc5c5;
+}
+.alert-warning{
+    color: #ff9204;
+    background-color: #ffe7c5;
+}
+.btn-close{
+    background: transparent url("/Components/images/closeIcon.svg") center/1.1em auto no-repeat;
+    border: 1px solid transparent;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0.75rem;
+    position: absolute;
+    top:0;
+    right:0;
+    opacity: 0.5;
+    cursor: pointer;
+    outline: none;
+    z-index: 1;
+}
+.btn-close:focus{
+    box-shadow: 0 0 0 2px black;
+}
+.btn-close:hover{
+    opacity: 1;
+}
+

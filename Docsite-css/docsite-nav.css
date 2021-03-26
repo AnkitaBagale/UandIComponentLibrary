@@ -1,0 +1,27 @@
+.nav-bar{
+    grid-area: header;
+    min-height: 10vh;    
+    width: 100%;
+    z-index: 10;
+}
+
+#my-logo{
+    padding: 0 3rem 0 2rem ;
+    width: fit-content;
+}
+
+
+.logo-title{
+    font-size: 2rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+  
+}
+
+#my-nav-bar a, #my-nav-bar a i{
+    transition: 0.2s ease;
+}
+#my-nav-bar a:hover, #my-nav-bar a:hover i{
+    color: var(--primary-color);
+}
+

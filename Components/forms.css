@@ -1,0 +1,83 @@
+
+.form-label{
+    display: inline-block;
+    padding-bottom: 0.625rem;
+    box-sizing: border-box;
+}
+
+.form-label-required-field:after{
+    content: "*";
+    color: #CF000F;
+}
+
+.form-field{
+    width: 100%;
+    display: block;
+    padding: 0.5rem;
+    border: 1px solid #d4d5d9;
+    border-radius: 0.3rem;
+    line-height: 1.5;
+    outline: none;
+    box-sizing: border-box;
+}
+.form-field-sm{
+    padding: 0.1rem;
+}
+.form-field:focus{
+    box-shadow: 0 0 0 1px var(--primary-color);
+}
+.form-field:disabled{
+    background-color: #e9ecef;
+}
+.form-field-plain-text:read-only{
+    border: none;
+    background-color: transparent;
+}
+
+.form-validation-msg{
+    margin-top: 0.25rem;
+    font-size: 0.875rem;
+    line-height: 21px;
+    display: none;
+}
+.form-field-error{
+    color: #CF000F;
+}
+.form-field-success{
+    color: #27a378;
+}
+
+.form-field-symbol{
+    padding-right: 0.25rem;
+}
+
+.form-validated :invalid~.form-field-error{
+    display: block;
+}
+.form-validated :valid~.form-field-success{
+    display: block;
+}
+
+.form-checkbox-field{
+    width: 1rem;
+    height: 1rem;
+    outline: none;
+    display: inline-block;
+    border-radius: 0.3rem;
+    margin-right: 0.25rem;
+    position: relative;
+    top: 0.15rem;
+}
+.form-checkbox-field:focus{
+    box-shadow: 0 0 0 1px var(--primary-color);
+}
+.form-checkbox-field:focus-within{
+    box-shadow: 0 0 0 1px var(--primary-color);
+}
+.submit-form-example{
+    width: 100%;
+}
+
+select.form-field option{
+    margin: 1rem;
+}

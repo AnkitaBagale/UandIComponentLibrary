@@ -1,0 +1,24 @@
+.toast{
+    width: fit-content;
+    padding: 1rem 3rem 1rem 1rem ;
+    position: fixed;
+    top:1rem;
+    right: 1rem;
+    background-color: var(--light-primary-color);
+    color: var(--complimentary-text-color);
+    border-radius: 0.3rem;
+    display: none;
+    z-index: 16;
+}
+.toast-success{
+    background-color: #84f1c9;
+    color: #1b7052;
+}
+.toast-error{
+    color: #dc3545;
+    background-color: #fcc5c5;
+}
+.toast-inform{
+    background-color: #7FD2E6;
+    color: #29438b;
+}

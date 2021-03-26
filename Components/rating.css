@@ -1,0 +1,44 @@
+
+.rating-star-icon{
+    color: rgba(0, 0, 0, 0.26);
+}
+
+.rating-star-input:enabled .rating-star-icon{
+    cursor: pointer;
+}
+
+.rating-star-input:enabled + .rating-star-icon:hover{
+    color: #ffd675;
+}
+
+.rating-star-input{
+    width: 0;
+    margin: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.rating-star-input:checked + .rating-star-icon{
+    color: #ffb400;
+}
+
+.rating-badge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+    color: black;
+    background-color: white;
+    padding: 0.3rem;
+}
+.rating-badge-number:not(:last-child){
+    margin-right: 0.2rem;
+}
+.rating-badge-star{  
+    color: #ffb400;
+    width: 0.75rem;
+    height: 0.75rem;
+    margin-right: 0.2rem;
+}
