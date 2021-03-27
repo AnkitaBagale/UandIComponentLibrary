@@ -78,8 +78,11 @@
     margin-bottom: 4px;
 }
 
-.card-img{
+.default-container .card-img{
     border-radius: 0.3rem;
+}
+.card-horizontal .card-img{
+    border-top-left-radius: 0.3rem;
 }
 
 .image-container.default-container .badge{
