@@ -12,7 +12,7 @@
     
     padding: 1rem;
     box-sizing: border-box;
-    z-index: 4;
+    z-index: var(--z-index-3);
 
     display: flex;
     justify-content: space-between;

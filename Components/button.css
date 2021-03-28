@@ -168,7 +168,7 @@ button.link-no-style{
     border-radius: 50%;
     color:var(--complimentary-text-color);
     background-color: var(--primary-color);
-    z-index: 2;
+    z-index: var(--z-index-3);
     position: fixed;
     bottom: 1rem;
     right: 1rem;

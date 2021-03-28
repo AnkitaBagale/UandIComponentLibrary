@@ -2,7 +2,7 @@
 
 .modal-interstitial{
     display: none;
-    z-index: 15;
+    z-index: var(--z-index-6);
     padding: 0 1rem;
 }
 .modal-content{

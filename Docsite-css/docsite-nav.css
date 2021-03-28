@@ -2,7 +2,7 @@
     grid-area: header;
     min-height: 10vh;    
     width: 100%;
-    z-index: 10;
+    z-index: var(--z-index-3);
 }
 
 #my-logo{
@@ -20,6 +20,11 @@
 .logo-and-symbol-style{
     font-size: 1rem; 
     margin-right: 3px;
+}
+.logo-tagline{
+    font-size:0.625rem; 
+    font-weight:500; 
+    letter-spacing: 1px;
 }
 
 #my-nav-bar a, #my-nav-bar a i{

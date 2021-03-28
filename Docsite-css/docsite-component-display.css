@@ -8,8 +8,8 @@
     border-radius:0.3rem;
     width: 100%;
 }
-.component-display-container .toast{
-    z-index: 1;
+.component-display-container  .toast{
+    z-index: var(--z-index-1);
 }
 
 .component-display-container .toast:not(#toast-example-success){
@@ -20,6 +20,7 @@
 }
 .component-display-container .btn-float-action{
     position: static;
+    z-index: var(--z-index-1);
 }
 
 .component-display-container h2{
@@ -28,7 +29,7 @@
 
 .component-display-container .modal-interstitial{
     display: block;
-    z-index: 1;
+    z-index: var(--z-index-1);
 }
 
 .component-display-container .rating-badge{

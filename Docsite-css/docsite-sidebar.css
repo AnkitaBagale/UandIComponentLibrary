@@ -39,7 +39,7 @@
 
     .sidebar{
         height: 3.5rem;
-        z-index: 3;
+        z-index: var(--z-index-2);
     }
 
     .nav-bar-opening-button{
@@ -81,7 +81,7 @@
         position: absolute;
         top: 3.5rem;
         height: calc(100vh - 3.5rem);
-        z-index: 3;
+        z-index: var(--z-index-3);
     }
 
 }

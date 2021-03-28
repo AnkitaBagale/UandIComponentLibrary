@@ -8,7 +8,7 @@
     color: var(--secondary-text-color);
     border-radius: 0.3rem;
     display: none;
-    z-index: 16;
+    z-index: var(--z-index-5);
 }
 .toast-success{
     background-color: #84f1c9;
