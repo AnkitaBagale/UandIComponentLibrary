@@ -17,6 +17,10 @@
     font-weight: 500;
   
 }
+.logo-and-symbol-style{
+    font-size: 1rem; 
+    margin-right: 3px;
+}
 
 #my-nav-bar a, #my-nav-bar a i{
     transition: 0.2s ease;
