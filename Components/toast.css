@@ -4,7 +4,7 @@
     position: fixed;
     top:1rem;
     right: 1rem;
-    background-color: var(--light-primary-color);
+    background-color: white;
     color: var(--complimentary-text-color);
     border-radius: 0.3rem;
     display: none;
