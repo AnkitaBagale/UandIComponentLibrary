@@ -1,0 +1,224 @@
+
+
+.nav-bar{
+    min-height: 10vh;
+    
+    width: 100%;
+    align-items: center;
+    background-color: #fcfcfc;   
+    
+    font-weight: 500;
+    color: #282c3f;
+    
+    padding: 1rem;
+    box-sizing: border-box;
+    z-index: var(--z-index-3);
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-section{
+    display: flex;
+    align-items: center;
+}
+
+.nav-section-items{
+    box-sizing:  border-box;
+    padding: 0 1rem;
+}
+.nav-section-item-width50pc{
+    width: 50%;
+    box-sizing:  border-box;
+    padding: 0 1rem;
+}
+
+.avatar-in-nav-links{
+    display: none;
+}
+
+
+.nav-bar-links{
+    display: flex;
+    z-index: 5;
+}
+
+
+.nav-icons{
+     
+    display: flex;
+    justify-self: right;
+}
+.nav-icon-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-icon-link .nav-icon-text{
+    font-size: 0.75rem;
+    margin-top: 4px;
+}
+.nav-icon-link .nav-icon{
+    color: #696b79;
+    width: 1.2rem;
+    height: 1.2rem;
+    font-size: 1.2rem;
+}
+
+.search-bar{   
+    width: 100%;
+}
+.search-bar{
+    background-color: rgb(245,245,246);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(105,110,121);
+    border-radius: 0.3rem;
+    justify-self: right;
+}
+.search-bar-input{
+    width: calc(100% - 2rem);
+    border: none;
+    background-color: transparent;
+    padding: 0.625rem 1rem;
+    outline: 0px;
+}
+.search-bar-btn{
+    padding: 0.625rem 0rem 0.625rem 1rem;
+}
+
+
+.burger{
+    display: none;
+    z-index: 6;
+    cursor: pointer;
+}
+.burger .line1{
+    height: 0.125rem;
+    width: 1.5rem;
+    background-color: #424553;
+    margin: 0.313rem 0;
+
+}
+.burger .line2{
+    height: 0.125rem;
+    width: 1.5rem;
+    background-color: #424553;
+    margin: 0.313rem 0;
+
+}
+.burger .line3{
+    height: 0.125rem;
+    width: 1.5rem;
+    background-color: #424553;
+    margin: 0.313rem 0;
+}
+.nav-logo-title{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 1024px){
+    .burger{
+        display: block;
+        transition: transform 0.2s ease;
+    }
+    .nav-logo{
+        display: none;
+    }
+
+    .nav-logo-title{
+        display: block;
+         
+    }
+    .nav-icon-text{
+        display: none;
+    }
+    .nav-bar{  
+        position: relative;
+        padding: 1rem 0.625rem;
+    }
+
+    .search-bar{
+        background-color: transparent;
+        width: fit-content;
+    }
+    .search-bar-btn{
+        padding: 0;
+    }
+    .search-bar-input{
+        display: none;
+    }
+
+
+    .nav-profile{
+        justify-self: left;
+    }
+
+    .nav-bar-links{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        display: none;
+    }
+
+    .active .nav-bar-links{
+        display: block;
+        width: 50%;
+        position: absolute;
+        top:0;
+        left:0;
+        background-color: white;
+        padding: 0rem;
+        height: 100vh;
+        overflow: auto;
+    }
+    .active .nav-bar-links .list-inline-item:not(.avatar-in-nav-links){
+        padding: 1rem 1.5rem;
+    }
+    .avatar-in-nav-links{
+        display: block;
+        width: 100%;
+        height: 100px;
+        background-color: rgb(63, 57, 71);
+        box-sizing: border-box;
+    }
+    .active .tertiary-text-color{
+        color: white;
+    }
+    .avatar-in-nav-links{
+        padding: 1.5rem;
+    }
+    .hide-profile-mobile{
+        display: none;
+    }
+    .active .burger{
+        position: absolute;
+        left: calc(50% - 2.5rem - 24px);
+        top: 1.5rem;
+        z-index: 6;
+    }
+    .active .burger .line2{
+        display: none;
+    }
+    .active .burger .line1{
+        position: relative;
+        transform: rotate(-45deg);
+        bottom: -4px;
+        background-color: white;
+    }
+    .active .burger .line3{
+        position: relative;
+        transform: rotate(45deg);
+        top: -3px;
+        background-color: white;
+    }
+   .active .nav-bar-links .list-inline-item:not(:last-of-type) {
+    margin-right: 0rem;
+   }
+}

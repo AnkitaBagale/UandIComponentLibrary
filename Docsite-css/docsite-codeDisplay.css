@@ -1,0 +1,16 @@
+
+.code-snippet-display{
+    box-sizing: border-box;
+    width: 100%;
+    max-height: 300px;
+    padding: 1rem 0;
+    background-color: #FAFAFA;
+    margin: 2rem 0;
+    overflow: auto;
+}
+.code-snippet-display iframe{
+    width: 100%;
+    border: none;
+}
+
+

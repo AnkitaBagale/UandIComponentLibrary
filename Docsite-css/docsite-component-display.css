@@ -1,0 +1,38 @@
+.component-display-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin: 2rem 0;
+    border: 2px solid var(--docSite-sec-color);
+    align-items: baseline;
+    border-radius:0.3rem;
+    width: 100%;
+}
+.component-display-container  .toast{
+    z-index: var(--z-index-1);
+}
+
+.component-display-container .toast:not(#toast-example-success){
+    position: relative;
+    top: 0;
+    right: 0;
+    display: block;
+}
+.component-display-container .btn-float-action{
+    position: static;
+    z-index: var(--z-index-1);
+}
+
+.component-display-container h2{
+    padding-top: 0;
+}
+
+.component-display-container .modal-interstitial{
+    display: block;
+    z-index: var(--z-index-1);
+}
+
+.component-display-container .rating-badge{
+    background-color: #F1F1F1;
+}
+

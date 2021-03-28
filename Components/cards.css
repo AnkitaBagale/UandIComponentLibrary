@@ -1,0 +1,162 @@
+.display-flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.display-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
+.flex-items{
+    margin: 1rem 1rem 1rem 0;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+.column-80-pc{
+    width: calc(80% - 1rem);
+}
+.column-20-pc{
+    width: 20%;
+}
+.column1{
+    margin-right: 1rem;
+}
+
+.card-horizontal{
+    border-radius: 0.3rem;
+    color: #282c3f;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.card-horizontal .image-container{
+    width: 111px;
+    height: 148px;
+}
+
+.card-horizontal .text-container{
+    width: calc(100% - 111px);
+}
+
+.card-horizontal.default-container .image-container{
+    margin: 1rem 0 1rem 1rem;
+}
+
+.text-container{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.card-horizontal.default-container .text-container{
+    margin-top: 4px;
+}
+
+.card-vertical{
+    display: flex;
+    flex-direction: column;
+    max-width: 208px;
+    width: 100%;
+    position: relative;
+}
+.card-vertical.default-container .image-container{
+    margin: 1rem 1rem 0rem 1rem;
+}
+.text-container-desc{
+    flex-grow: 1;
+}
+
+.text-container h1, .text-container h2, .text-container h3, .text-container h4, .text-container h5, .text-container h6,.text-container p{
+    margin: 0px;
+    margin-bottom: 4px;
+}
+
+.default-container .card-img{
+    border-radius: 0.3rem;
+}
+.card-horizontal .card-img{
+    border-top-left-radius: 0.3rem;
+}
+
+.image-container.default-container .badge{
+    position: absolute;
+    top: 0rem; 
+    left: 0rem;  
+    opacity: 0.8;
+}
+.image-container .badge{
+    position: absolute;
+    top: 1rem; 
+    left: 0rem;  
+    opacity: 0.8;
+}
+
+.CTA-Container .btn:not(:last-child){
+    margin-right: 0.625rem;
+}
+.CTA-Container .btn{
+    margin-bottom: 0;
+}
+.CTA-Container .link-text:not(:last-child){
+    margin-right: 0.625rem;
+}
+
+.shadow-bottom{
+   box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
+}
+
+.shadow-box{
+    box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 5%);
+}
+
+.flex-grow{
+    flex-grow: 1;
+}
+
+
+.text-container .product-title{
+    position: relative;
+    margin-right: 1.2rem;
+}
+
+
+.like-btn{
+    position: absolute;
+    top: 0rem;
+    right: -1.2rem;
+    font-size: 1.2rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    color: #adadad;
+}
+
+
+
+.overlay-text {
+    position: absolute;
+    top: 0rem;
+    left:0;
+    right:0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgb(234, 234, 236,0.6);
+}
+.overlay-container{
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.overlay-text .text-container{
+    background-color: white;
+}
