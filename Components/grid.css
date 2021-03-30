@@ -2,6 +2,7 @@
 .grid-30-70-layout{
     display: grid;
     grid-template-columns: 30% 70%;
+   
 }
 .grid-70-30-layout{
     display: grid;
@@ -13,9 +14,11 @@
 }
 .grid-4-column-layout{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap:1.5rem;
-    justify-content: center;
+    width: 100%;
+    max-width: 56.5rem;
+    margin: auto;
 }
 .grid-content-center{
     justify-content: center;
