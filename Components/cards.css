@@ -89,13 +89,11 @@
     position: absolute;
     top: 0rem; 
     left: 0rem;  
-    opacity: 0.8;
 }
 .image-container .badge{
     position: absolute;
     top: 1rem; 
     left: 0rem;  
-    opacity: 0.8;
 }
 
 .CTA-Container .btn:not(:last-child){
