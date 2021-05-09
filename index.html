@@ -69,6 +69,13 @@
                             </span>
                         </a> 
                     </li> 
+                    <li class="list-inline-item">
+                        <span class="nav-icon-link link-no-style">
+                            <span class="nav-icon">       
+                                <i class="fas fa-moon" id="toggle-theme"></i>
+                            </span>
+                        </span> 
+                    </li> 
                 </ul>
             </div>    
         </nav> 
@@ -98,8 +105,19 @@
                 <div class="text-container">
                     <h2>Installation</h2>
                     <p class="body-cp-rg">Copy and paste the code in the head tag of your html document. 
-                        So that you can style your components by just adding class names to your html elements. 
-                        To know about the styled components, their variations, read the documentaion</p>
+                        So that you can style your components by just adding class names to your html elements.
+                        <br><br>
+                        Version 1 has only light theme.
+                        <br><br>
+                        Version 2 has 2 themes:
+                        <ul class="styled-list">
+                            <li>Light Theme</li>
+                            <li>Dark Theme</li>
+                        </ul>
+                        
+                        To know about the styled components, their variations, read the documentaion
+                    
+                    </p>
                     <div class="CTA-Container">
                         <a href="./docs.html" class="btn btn-solid-primary">Documentation</a>
                     </div>
@@ -108,8 +126,8 @@
                     <div class="code-snippet-display" style="border: 1px solid var(--primary-color);">
                         <code>
                             <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=one-light&wt=sharp&l=javascript&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fu-and-i.netlify.app%252FComponents%252Fu-and-i.css%2522%253E"
-                            style="width: 719px; max-width: 100%; overflow: scroll; height: 93px; border:0; transform: scale(1); overflow:hidden;"
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=one-light&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520For%2520Version%25201%2520--%253E%250A%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fu-and-i.netlify.app%252FComponents%252Fu-and-i.css%2522%253E%250A%250A%253C%21--%2520For%2520Version%25202%253A%2520Light%2520Theme%2520--%253E%250A%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fu-and-i.netlify.app%252FComponents%252Fu-and-i-v2.css%2522%253E%250A%250A%253C%21--%2520For%2520Version%25202%253A%2520Dark%2520Theme%2520--%253E%250A%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fu-and-i.netlify.app%252FComponents%252Fu-and-i-v2-dark-theme.css%2522%253E"
+                            style="width: 839px; height: 217px; border:0; transform: scale(1); overflow:hidden;"
                             sandbox="allow-scripts allow-same-origin">
                           </iframe>
                         </code>
@@ -134,5 +152,6 @@
         </footer>
 
         <script src="./Docsite-js/docsite-nav.js"></script>
+        <script src="./Docsite-js/theme.js"></script>
 </body>
 </html>
