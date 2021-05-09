@@ -1,0 +1,80 @@
+@import url('./u-and-i.css');
+
+:root {
+	--primary-color: #f48fb1;
+	--light-primary-color: #f6a5c1;
+	--dark-primary-color: #dc819f;
+	--complimentary-text-color: #000000de;
+	--secondary-text-color: #e0e0e0;
+	--dark-secondary-text-color: #b3b3b3;
+	--light-secondary-text-color: #cacaca;
+	--secondary-color: #9d9d9d;
+	--dark-secondary-color: #868686;
+
+	--bg-color-primary: #333;
+	--bg-color-primary-2: #424242;
+	--docSite-sec-color: #424242;
+	--bg-color-primary-3: #424242;
+}
+
+body {
+	background-color: black;
+	color: white;
+}
+
+.tertiary-text-color {
+	color: var(--light-secondary-text-color);
+}
+
+.overlay-text .text-container {
+	background-color: var(--secondary-color);
+}
+.card-horizontal {
+	color: var(--light-secondary-text-color);
+}
+
+.nav-bar {
+	background-color: var(--bg-color-primary);
+	color: var(--light-secondary-text-color);
+}
+
+.burger .line1,
+.burger .line2,
+.burger .line3 {
+	background-color: var(--secondary-text-color);
+}
+.nav-icon-link .nav-icon {
+	color: var(--secondary-text-color);
+}
+
+.nav-bar .nav-icon:hover i {
+	color: var(--primary-color);
+}
+
+.avatar-in-nav-links {
+	background-color: var(--bg-color-primary-3);
+}
+
+.active .nav-bar-links {
+	background-color: var(--bg-color-primary);
+}
+.list-container {
+	background-color: var(--bg-color-primary);
+}
+
+.modal-content {
+	background-color: var(--bg-color-primary-2);
+}
+.form-field-plain-text:read-only {
+	color: var(--light-secondary-text-color);
+}
+.form-field-error,
+.form-label-required-field:after {
+	color: var(--primary-color);
+}
+.rating-star-icon {
+	color: var(--dark-secondary-color);
+}
+label.slider-track[for='range']:after {
+	background-color: var(--dark-secondary-color);
+}
