@@ -2,6 +2,8 @@
 
 Component Library to build UI faster.
 
+### Version 2: Dark mode is added, now all the components support dark mode 
+
 This component library is built with html, css and vanilla js.
 All the components are ready with css, to create your own app faster. Just copy paste the code and you are ready to fill your content.
 
