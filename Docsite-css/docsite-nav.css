@@ -1,36 +1,49 @@
-.nav-bar{
-    grid-area: header;
-    min-height: 10vh;    
-    width: 100%;
-    z-index: var(--z-index-3);
+.nav-bar {
+	grid-area: header;
+	min-height: 10vh;
+	width: 100%;
+	z-index: var(--z-index-3);
+	/* position: sticky; */
+	top: 0;
 }
 
-#my-logo{
-    padding: 0 3rem 0 2rem ;
-    width: fit-content;
+#my-logo {
+	padding: 0 3rem 0 2rem;
+	width: fit-content;
 }
 
-
-.logo-title{
-    font-size: 2rem;
-    font-family: 'Roboto Slab', serif;
-    font-weight: 500;
-  
+.logo-title {
+	font-size: 2rem;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 500;
 }
-.logo-and-symbol-style{
-    font-size: 1rem; 
-    margin-right: 3px;
+.logo-and-symbol-style {
+	font-size: 1rem;
+	margin-right: 3px;
 }
-.logo-tagline{
-    font-size:0.625rem; 
-    font-weight:500; 
-    letter-spacing: 1px;
+.logo-tagline {
+	font-size: 0.625rem;
+	font-weight: 500;
+	letter-spacing: 1px;
 }
 
-#my-nav-bar a, #my-nav-bar a i{
-    transition: 0.2s ease;
+#my-nav-bar a,
+#my-nav-bar a i {
+	transition: 0.2s ease;
 }
-#my-nav-bar a:hover, #my-nav-bar a:hover i{
-    color: var(--primary-color);
+#my-nav-bar a:hover,
+#my-nav-bar a:hover i {
+	color: var(--primary-color);
 }
 
+@media screen and (max-width: 1024px) {
+	.active .nav-bar-links {
+		position: fixed;
+		top: 0;
+		left: 0;
+		bottom: 0;
+	}
+	.active .burger {
+		position: fixed;
+	}
+}

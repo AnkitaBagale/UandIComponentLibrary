@@ -1,6 +1,6 @@
 .sidebar {
 	grid-area: sidebar;
-	overflow-y: scroll;
+	overflow-y: auto;
 	position: sticky;
 	top: 0rem;
 	height: calc(100vh - 2rem);
@@ -35,6 +35,7 @@
 	}
 
 	.sidebar {
+		overflow-y: hidden;
 		height: 3.5rem;
 		z-index: var(--z-index-2);
 		background-color: var(--docSite-sec-color);
